@@ -11,7 +11,7 @@ class IsPrototypeEnumerable extends AsyncObject {
 
   definedSyncCall() {
     return (obj, prop) => {
-      return obj.isPrototypeEnumerable(prop);
+      return obj.propertyIsEnumerable(prop);
     }
   }
 

@@ -11,7 +11,7 @@ class PrototypeOf extends AsyncObject {
 
   definedSyncCall() {
     return (obj) => {
-      return Object.getProtoypeOf(obj);
+      return Object.getPrototypeOf(obj);
     }
   }
 
