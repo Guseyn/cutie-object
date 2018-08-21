@@ -11,7 +11,7 @@ class ObjectWithPrototypeOf extends AsyncObject {
 
   definedSyncCall() {
     return (obj, prototype) => {
-      return Object.freeze(obj, prototype);
+      return Object.setPrototypeOf(obj, prototype);
     }
   }
 
