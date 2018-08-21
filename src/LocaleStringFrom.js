@@ -2,7 +2,7 @@
 
 const AsyncObject = require('@guseyn/cutie').AsyncObject;
 
-// Represented result is boolean
+// Represented result is string
 class LocaleStringFrom extends AsyncObject {
 
   constructor(obj) {
