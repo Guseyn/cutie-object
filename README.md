@@ -1,4 +1,4 @@
-# cutie-date
+# cutie-object
 
 [![NPM Version][npm-image]][npm-url]
 
