@@ -14,7 +14,7 @@ You can find examples of using this library in the [test directory](https://gith
 ```js
 const {
   // Needed async objects here from the table below
-} = require('@guseyn/cutie-object');
+} = require('@cuties/object');
 ```
 For more information about parameters in the async objects visit [MDN docs for Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
 
@@ -44,6 +44,6 @@ For more information about parameters in the async objects visit [MDN docs for O
 | `StringFrom` | `obj.toString` | `obj` | `string` |
 | `ValueOf` | `obj.valueOf` | `obj` | `value` |
 
-[npm-image]: https://img.shields.io/npm/v/@guseyn/cutie-object.svg
-[npm-url]: https://npmjs.org/package/@guseyn/cutie-object
+[npm-image]: https://img.shields.io/npm/v/@cuties/object.svg
+[npm-url]: https://npmjs.org/package/@cuties/object
 
