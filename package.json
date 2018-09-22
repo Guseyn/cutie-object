@@ -1,6 +1,6 @@
 {
   "name": "@cuties/object",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cutie extension for working with Object in JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,10 @@
     "object"
   ],
   "dependencies": {
-    "@cuties/cutie": "1.4.3",
-    "@cuties/assert": "1.1.4",
-    "@cuties/is": "1.0.6",
-    "test-executor": "1.1.0"
+    "@cuties/cutie": "1.4.4",
+    "@cuties/assert": "1.1.5",
+    "@cuties/is": "1.0.8",
+    "test-executor": "1.1.2"
   },
   "author": "guseyn",
   "license": "MIT",
