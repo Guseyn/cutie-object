@@ -1,6 +1,6 @@
 {
   "name": "@cuties/object",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Cutie extension for working with Object in JavaScript.",
   "main": "index.js",
   "scripts": {
