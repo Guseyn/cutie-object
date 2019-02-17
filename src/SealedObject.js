@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is object
 class SealedObject extends AsyncObject {
-
-  constructor(obj) {
-    super(obj);
+  constructor (obj) {
+    super(obj)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj) => {
-      return Object.seal(obj);
+      return Object.seal(obj)
     }
   }
-
 }
 
-module.exports = SealedObject;
+module.exports = SealedObject

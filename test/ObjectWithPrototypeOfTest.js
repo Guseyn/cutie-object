@@ -2,13 +2,13 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   IsObject
-} = require('@cuties/is');
+} = require('@cuties/is')
 const {
   ObjectWithPrototypeOf
-} = require('./../index');
+} = require('./../index')
 
 let obj = {}
 
@@ -18,4 +18,4 @@ new Assertion(
       obj, Date.prototype
     )
   )
-).call();
+).call()

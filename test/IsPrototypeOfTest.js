@@ -2,15 +2,13 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   IsPrototypeOf
-} = require('./../index');
-
-let obj = {key: 'value'}
+} = require('./../index')
 
 new Assertion(
   new IsPrototypeOf(
     Object.prototype, Object
   )
-).call();
+).call()

@@ -2,13 +2,13 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   IsObject
-} = require('@cuties/is');
+} = require('@cuties/is')
 const {
   ObjectWithDefinedProperty
-} = require('./../index');
+} = require('./../index')
 
 let obj = {}
 
@@ -23,4 +23,4 @@ new Assertion(
       }
     )
   )
-).call();
+).call()

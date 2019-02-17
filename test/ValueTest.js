@@ -1,17 +1,14 @@
 'use strict'
 
 const {
-  EqualAssertion
-} = require('@cuties/assert');
-const {
-  IsObject
-} = require('@cuties/is');
+  StrictEqualAssertion
+} = require('@cuties/assert')
 const {
   Value
-} = require('./../index');
+} = require('./../index')
 
-let obj = {key: 'value'}
+let obj = { key: 'value' }
 
-new EqualAssertion(
+new StrictEqualAssertion(
   new Value(obj, 'key'), 'value'
-).call();
+).call()

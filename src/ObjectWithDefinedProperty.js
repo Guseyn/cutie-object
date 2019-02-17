@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is object
 class ObjectWithDefinedProperty extends AsyncObject {
-
-  constructor(obj, prop, descriptor) {
-    super(obj, prop, descriptor);
+  constructor (obj, prop, descriptor) {
+    super(obj, prop, descriptor)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj, prop, descriptor) => {
-      return Object.defineProperty(obj, prop, descriptor);
+      return Object.defineProperty(obj, prop, descriptor)
     }
   }
-
 }
 
-module.exports = ObjectWithDefinedProperty;
+module.exports = ObjectWithDefinedProperty
