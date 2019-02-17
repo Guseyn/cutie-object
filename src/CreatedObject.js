@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is object
 class CreatedObject extends AsyncObject {
-
-  constructor(proto, propertiesObject) {
-    super(proto, propertiesObject);
+  constructor (proto, propertiesObject) {
+    super(proto, propertiesObject)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (proto, propertiesObject) => {
-      return Object.create(proto, propertiesObject);
+      return Object.create(proto, propertiesObject)
     }
   }
-
 }
 
-module.exports = CreatedObject;
+module.exports = CreatedObject

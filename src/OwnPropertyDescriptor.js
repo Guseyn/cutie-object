@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is object
 class OwnPropertyDescriptor extends AsyncObject {
-
-  constructor(obj, prop) {
-    super(obj, prop);
+  constructor (obj, prop) {
+    super(obj, prop)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj, prop) => {
-      return Object.getOwnPropertyDescriptor(obj, prop);
+      return Object.getOwnPropertyDescriptor(obj, prop)
     }
   }
-
 }
 
-module.exports = OwnPropertyDescriptor;
+module.exports = OwnPropertyDescriptor

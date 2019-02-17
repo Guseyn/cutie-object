@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is string[]
 class OwnPropertySymbols extends AsyncObject {
-
-  constructor(obj) {
-    super(obj);
+  constructor (obj) {
+    super(obj)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj) => {
-      return Object.getOwnPropertySymbols(obj);
+      return Object.getOwnPropertySymbols(obj)
     }
   }
-
 }
 
-module.exports = OwnPropertySymbols;
+module.exports = OwnPropertySymbols

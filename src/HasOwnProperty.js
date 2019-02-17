@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is boolean
 class HasOwnProperty extends AsyncObject {
-
-  constructor(obj, prop) {
-    super(obj, prop);
+  constructor (obj, prop) {
+    super(obj, prop)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj, prop) => {
-      return obj.hasOwnProperty(prop);
+      return obj.hasOwnProperty(prop)
     }
   }
-
 }
 
-module.exports = HasOwnProperty;
+module.exports = HasOwnProperty

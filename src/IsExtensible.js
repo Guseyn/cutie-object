@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is boolean
 class IsExtensible extends AsyncObject {
-
-  constructor(obj) {
-    super(obj);
+  constructor (obj) {
+    super(obj)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj) => {
-      return Object.isExtensible(obj);
+      return Object.isExtensible(obj)
     }
   }
-
 }
 
-module.exports = IsExtensible;
+module.exports = IsExtensible

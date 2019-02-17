@@ -2,15 +2,15 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   AreObjectsEqual
-} = require('./../index');
+} = require('./../index')
 
-let obj = {key: 'value'}
+let obj = { key: 'value' }
 
 new Assertion(
   new AreObjectsEqual(
     obj, obj
   )
-).call();
+).call()

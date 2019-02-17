@@ -2,16 +2,16 @@
 
 const {
   StrictEqualAssertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   PrototypeOf,
   CreatedObject
-} = require('./../index');
+} = require('./../index')
 
-let obj = {key: 'value'}
+let obj = { key: 'value' }
 
 new StrictEqualAssertion(
   new PrototypeOf(
     new CreatedObject(obj)
   ), obj
-).call();
+).call()

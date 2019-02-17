@@ -2,15 +2,15 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   Is
-} = require('@cuties/is');
+} = require('@cuties/is')
 const {
   FrozenObject
-} = require('./../index');
+} = require('./../index')
 
-let obj = {key: 'value'}
+let obj = { key: 'value' }
 
 new Assertion(
   new Is(
@@ -18,4 +18,4 @@ new Assertion(
       obj
     ), Object
   )
-).call();
+).call()

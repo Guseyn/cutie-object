@@ -1,20 +1,18 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
+const AsyncObject = require('@cuties/cutie').AsyncObject
 
 // Represented result is object
 class FrozenObject extends AsyncObject {
-
-  constructor(obj) {
-    super(obj);
+  constructor (obj) {
+    super(obj)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (obj) => {
-      return Object.freeze(obj);
+      return Object.freeze(obj)
     }
   }
-
 }
 
-module.exports = FrozenObject;
+module.exports = FrozenObject

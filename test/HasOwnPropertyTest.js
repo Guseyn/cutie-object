@@ -2,15 +2,15 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
+} = require('@cuties/assert')
 const {
   HasOwnProperty
-} = require('./../index');
+} = require('./../index')
 
-let obj = {key: 'value'}
+let obj = { key: 'value' }
 
 new Assertion(
   new HasOwnProperty(
     obj, 'key'
   )
-).call();
+).call()

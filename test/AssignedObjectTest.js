@@ -2,18 +2,15 @@
 
 const {
   Assertion
-} = require('@cuties/assert');
-const {
-  Is
-} = require('@cuties/is');
+} = require('@cuties/assert')
 const {
   AssignedObject
-} = require('./../index');
+} = require('./../index')
 
-let obj = {key: 'value'}
+let obj = { key: 'value' }
 
 new Assertion(
   new AssignedObject(
     obj
   )
-).call();
+).call()
