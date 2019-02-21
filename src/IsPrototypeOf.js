@@ -8,7 +8,7 @@ class IsPrototypeOf extends AsyncObject {
     super(prototypeObj, obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (prototypeObj, obj) => {
       return prototypeObj.isPrototypeOf(obj)
     }

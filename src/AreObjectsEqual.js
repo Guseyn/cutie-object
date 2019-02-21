@@ -8,7 +8,7 @@ class AreObjectsEqual extends AsyncObject {
     super(obj1, obj2)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj1, obj2) => {
       return Object.is(obj1, obj2)
     }

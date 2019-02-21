@@ -8,7 +8,7 @@ class IsSealed extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj) => {
       return Object.isSealed(obj)
     }

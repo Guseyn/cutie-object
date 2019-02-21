@@ -8,7 +8,7 @@ class NotExtensibleObject extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj) => {
       return Object.preventExtensions(obj)
     }

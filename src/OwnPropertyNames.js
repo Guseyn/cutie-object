@@ -8,7 +8,7 @@ class OwnPropertyNames extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj, prop) => {
       return Object.getOwnPropertyNames(obj)
     }

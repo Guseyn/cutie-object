@@ -8,7 +8,7 @@ class ObjectWithPrototypeOf extends AsyncObject {
     super(obj, prototype)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj, prototype) => {
       return Object.setPrototypeOf(obj, prototype)
     }

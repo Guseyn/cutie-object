@@ -8,7 +8,7 @@ class CreatedObject extends AsyncObject {
     super(proto, propertiesObject)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (proto, propertiesObject) => {
       return Object.create(proto, propertiesObject)
     }

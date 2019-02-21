@@ -8,7 +8,7 @@ class IsFrozen extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj) => {
       return Object.isFrozen(obj)
     }

@@ -8,7 +8,7 @@ class ObjectWithDefinedProperties extends AsyncObject {
     super(obj, props)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj, props) => {
       return Object.defineProperties(obj, props)
     }
