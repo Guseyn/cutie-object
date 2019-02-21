@@ -8,7 +8,7 @@ class HasOwnProperty extends AsyncObject {
     super(obj, prop)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj, prop) => {
       return obj.hasOwnProperty(prop)
     }

@@ -8,7 +8,7 @@ class OwnPropertySymbols extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj) => {
       return Object.getOwnPropertySymbols(obj)
     }

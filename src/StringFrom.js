@@ -8,7 +8,7 @@ class StringFrom extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj) => {
       return obj.toString()
     }

@@ -8,7 +8,7 @@ class Value extends AsyncObject {
     super(obj, key)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj, key) => {
       return obj[key]
     }

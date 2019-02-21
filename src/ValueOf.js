@@ -8,7 +8,7 @@ class ValueOf extends AsyncObject {
     super(obj)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj) => {
       return obj.valueOf()
     }

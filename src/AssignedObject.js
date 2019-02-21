@@ -8,7 +8,7 @@ class AssignedObject extends AsyncObject {
     super(target, ...sources)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (target, ...sources) => {
       return Object.assign(target, ...sources)
     }

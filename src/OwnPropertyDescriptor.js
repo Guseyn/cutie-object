@@ -8,7 +8,7 @@ class OwnPropertyDescriptor extends AsyncObject {
     super(obj, prop)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (obj, prop) => {
       return Object.getOwnPropertyDescriptor(obj, prop)
     }
