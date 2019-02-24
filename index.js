@@ -19,6 +19,7 @@ module.exports = {
   OwnPropertyDescriptor: require('./src/OwnPropertyDescriptor'),
   OwnPropertyNames: require('./src/OwnPropertyNames'),
   OwnPropertySymbols: require('./src/OwnPropertySymbols'),
+  ProcessedObject: require('./src/ProcessedObject'),
   PrototypeOf: require('./src/PrototypeOf'),
   SealedObject: require('./src/SealedObject'),
   StringFrom: require('./src/StringFrom'),
