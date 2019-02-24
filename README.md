@@ -58,6 +58,7 @@ For more information about parameters in the async objects visit [MDN docs for O
 | `PrototypeOf` | `Object.getPrototypeOf` | `obj` | `prototype` |
 | `SealedObject` | `Object.seal` | `obj` | `obj` |
 | `StringFrom` | `obj.toString` | `obj` | `string` |
+| `ObjectWithValue` | `obj[key] = value` | `obj, key, value` | `obj` |
 | `Value` | `obj[key]` | `obj, key` | `value` |
 | `ValueOf` | `obj.valueOf` | `obj` | `value` |
 | `Values` | `Object.values` | `obj` | `string[]` |
