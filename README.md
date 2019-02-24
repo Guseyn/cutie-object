@@ -50,6 +50,7 @@ For more information about parameters in the async objects visit [MDN docs for O
 | `ObjectWithDefinedProperties` | `Object.defineProperties` | `obj, props` | `obj` |
 | `ObjectWithDefinedProperty` | `Object.defineProperty` | `obj, prop, descriptor` | `obj` |
 | `ObjectWithPrototypeOf` | `Object.setPrototypeOf` | `obj, prototype` | `obj` |
+| `ObjectWithValue` | `Object.assign({}, obj)[key] = value` | `obj, key, value` | `obj` |
 | `OwnPropertyDescriptor` | `Object.getOwnPropertyDescriptor` | `obj, prop` | `obj` |
 | `OwnPropertyNames` | `Object.getOwnPropertyNames` | `obj, prop` | `string[]` |
 | `OwnPropertySymbols` | `Object.getOwnPropertySymbols` | `obj` | `string[]` |

@@ -10,10 +10,11 @@ class ProcessedObject extends AsyncObject {
 
   syncCall () {
     return (obj, iterator) => {
-      for (var key in obj) {
-        iterator(obj, key, obj[key])
+      let newObj = Object.assign({}, obj)
+      for (var key in newObj) {
+        iterator(newObj, key, newObj[key])
       }
-      return obj
+      return newObj
     }
   }
 }
