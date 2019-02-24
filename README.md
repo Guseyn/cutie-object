@@ -53,8 +53,10 @@ For more information about parameters in the async objects visit [MDN docs for O
 | `OwnPropertyDescriptor` | `Object.getOwnPropertyDescriptor` | `obj, prop` | `obj` |
 | `OwnPropertyNames` | `Object.getOwnPropertyNames` | `obj, prop` | `string[]` |
 | `OwnPropertySymbols` | `Object.getOwnPropertySymbols` | `obj` | `string[]` |
+| `ProcessedObject` | [processedObject](https://github.com/Guseyn/cutie-object/blob/master/src/Keys.js) | `obj, iterator` | `obj` |
 | `PrototypeOf` | `Object.getPrototypeOf` | `obj` | `prototype` |
 | `SealedObject` | `Object.seal` | `obj` | `obj` |
 | `StringFrom` | `obj.toString` | `obj` | `string` |
 | `Value` | `obj[key]` | `obj, key` | `value` |
 | `ValueOf` | `obj.valueOf` | `obj` | `value` |
+| `Values` | `Object.values` | `obj` | `string[]` |
