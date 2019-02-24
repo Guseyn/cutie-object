@@ -16,6 +16,7 @@ module.exports = {
   ObjectWithDefinedProperties: require('./src/ObjectWithDefinedProperties'),
   ObjectWithDefinedProperty: require('./src/ObjectWithDefinedProperty'),
   ObjectWithPrototypeOf: require('./src/ObjectWithPrototypeOf'),
+  ObjectWithValue: require('./src/ObjectWithValue'),
   OwnPropertyDescriptor: require('./src/OwnPropertyDescriptor'),
   OwnPropertyNames: require('./src/OwnPropertyNames'),
   OwnPropertySymbols: require('./src/OwnPropertySymbols'),
