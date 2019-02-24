@@ -23,6 +23,7 @@ module.exports = {
   SealedObject: require('./src/SealedObject'),
   StringFrom: require('./src/StringFrom'),
   Value: require('./src/Value'),
-  ValueOf: require('./src/ValueOf')
+  ValueOf: require('./src/ValueOf'),
+  Values: require('./src/Values')
 
 }
