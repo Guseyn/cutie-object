@@ -24,6 +24,7 @@ module.exports = {
   PrototypeOf: require('./src/PrototypeOf'),
   SealedObject: require('./src/SealedObject'),
   StringFrom: require('./src/StringFrom'),
+  TheSameObjectWithValue: require('./src/TheSameObjectWithValue'),
   Value: require('./src/Value'),
   ValueOf: require('./src/ValueOf'),
   Values: require('./src/Values')
