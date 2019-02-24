@@ -11,9 +11,7 @@ class ProcessedObject extends AsyncObject {
   syncCall () {
     return (obj, iterator) => {
       for (var key in obj) {
-        if (obj.hasOwnProperty(key)) {
-          iterator(obj, key, obj[key])
-        }
+        iterator(obj, key, obj[key])
       }
       return obj
     }
