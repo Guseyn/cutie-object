@@ -3,6 +3,7 @@ module.exports = {
   AreObjectsEqual: require('./src/AreObjectsEqual'),
   AssignedObject: require('./src/AssignedObject'),
   CreatedObject: require('./src/CreatedObject'),
+  CreatedOptions: require('./src/CreatedOptions'),
   FrozenObject: require('./src/FrozenObject'),
   HasOwnProperty: require('./src/HasOwnProperty'),
   IsExtensible: require('./src/IsExtensible'),
