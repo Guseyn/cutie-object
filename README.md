@@ -37,6 +37,7 @@ For more information about parameters in the async objects visit [MDN docs for O
 | `AreObjectsEqual` | `Object.is` | `obj1, obj2` | `boolean` |
 | `AssignedObject` | `Object.assign` | `target, ...sources` | `object` |
 | `CreatedObject` | `Object.create` | `proto, propertiesObject` | `object` |
+| `CreatedOptions` | [syncCall](https://github.com/Guseyn/cutie-object/blob/master/src/CreatedOptions.js#L12) | `key1, value1, key2, value2, ...` | `{ key1: value1, key2: value2, ... }` |
 | `FrozenObject` | `Object.freeze` | `obj` | `obj` |
 | `HasOwnProperty` | `obj.hasOwnProperty` | `obj, prop` | `boolean` |
 | `IsExtensible` | `Object.isExtensible` | `obj` | `boolean` |
